@@ -4,20 +4,21 @@ Importar as bibliotecas usadas
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-#%% md
-Importar a fonte de dados
-#%%
-df = pd.read_csv(r'D:\My Drive\Cursos\Imersão\datasets\Enem 2023\DADOS\MICRODADOS_ENEM_2023.csv', encoding='latin1', sep = ';')
-#%%
+
 print(df)
+
 #%% md
 Imprimir as cinco primeiras linhas
 #%%
+
 df.head()
+
 #%% md
 O número de linhas e colunas do dataframe
 #%%
+
 df.shape
+
 #%%
 df_2022 = pd.read_csv(r'D:\My Drive\Cursos\Imersão\datasets\Enem 2022\DADOS\MICRODADOS_ENEM_2022.csv', encoding='latin1', sep = ';')
 
